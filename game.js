@@ -144,6 +144,6 @@ function Draw(){
 
 
 document.addEventListener('keydown', Jump)
-
+document.addEventListener('touchstart', Jump)
 
 pipebot.onload = Draw
